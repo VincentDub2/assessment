@@ -68,7 +68,7 @@ const HomePage = () => {
     }
 
     return (
-        <div className="mx-auto px-4 py-6">
+        <div className="mx-auto px-4">
             {loading ? (
                 <p className="text-center">Loading ...</p>
             ) : error ? (
